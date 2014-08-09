@@ -1,0 +1,37 @@
+#main {
+	border: 0px solid black;
+	width: 480px;
+	height: 800px;
+	vertical-align: middle;
+	margin: auto;
+}
+
+#top {
+	width: 100%;
+	height: 250px;
+		border: 1px solid black;
+	vertical-align: middle;
+}
+
+#middle {
+		border: 0px solid black;
+/*	width: 100%;*/
+	height: 480px;
+	vertical-align: middle;
+	z-index: 999;
+	position: relative;
+}
+
+#bottom {
+		border: 1px solid black;
+	width: 100%;
+	height: 70px;
+	vertical-align: middle;
+}
+
+.buttons {
+	margin: 1px;
+	background-color: gray;
+	float: left;
+	vertical-align: middle;
+}
