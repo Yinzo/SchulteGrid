@@ -6,8 +6,8 @@ function startTimer()
 
 function timePassed()
 {
-	var time = new Date();
-	nowTime = time.getTime();
-	timePassed = nowTime - startTime;
-	return timePassed;
+	var time2 = new Date();
+	nowTime = time2.getTime();
+	Dtime = nowTime - startTime;
+	return Dtime;
 }

@@ -1,8 +1,7 @@
 //本文件调用了timing.js中的函数。
 
 level = 1;
-
-
+TTime = 0;
 function initial()
 {
 	buttonAmount = level + 2;
@@ -11,10 +10,13 @@ function initial()
 	BtnNum = 1 ;
 	nowNum = 1 ;
 	$("#num").text(nowNum);
+
 }
 
 function btnInit()
 {
+	startTimer();
+
 	console.log("按钮生成中")
 		/* Act on the event */
 		if(hadButton == false)
@@ -117,10 +119,14 @@ function start()
 
 function finish()
 {
-	var outPut = new String;
-	outPut = "本关耗时" + timePassed() / 1000 + "秒";
+		console.log("1");
+	DTime = timePassed() / 1000;
+	TTime += DTime;
+		console.log(outPut);
+	var outPut = "本关耗时" + DTime.toFixed(2) + "秒\n总耗时" + TTime.toFixed(2) + "秒";
+
 	$("#text").text(outPut);
-	
+
 	$("#window")
 	.slideDown(300, function() {
 		hadButton = false;
@@ -158,7 +164,6 @@ $(document).ready(function() {
 
 	$("#control").click(function() {
 		btnInit();
-		startTimer();
 	});
 
 });
