@@ -1,3 +1,5 @@
+//本文件调用了timing.js中的函数。
+
 level = 1;
 
 
@@ -115,8 +117,11 @@ function start()
 
 function finish()
 {
+	var outPut = new String;
+	outPut = "本关耗时" + timePassed() / 1000 + "秒";
+	$("#text").text(outPut);
+	
 	$("#window")
-
 	.slideDown(300, function() {
 		hadButton = false;
 		$("#middle").empty();
@@ -153,6 +158,7 @@ $(document).ready(function() {
 
 	$("#control").click(function() {
 		btnInit();
+		startTimer();
 	});
 
 });

@@ -68,6 +68,10 @@
 	display: none;
 }
 
+#text {
+	font-size: 0.5em;
+}
+
 #continue {
 	font-size: 0.3em;
 	position: relative;
