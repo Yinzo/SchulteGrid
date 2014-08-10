@@ -20,6 +20,17 @@
 	margin: 20px 50px;
 	font-size: 3em;
 }
+#next {
+	margin: 30px;
+	position: relative;
+	text-align: right;
+	bottom: 30px;
+}
+
+#num {
+	font-size: 5em;
+	margin: 0px;
+}
 
 #middle {
 		border: 0px solid black;
@@ -33,8 +44,12 @@
 #bottom {
 		border: 1px solid black;
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	vertical-align: middle;
+}
+
+#bottom>p {
+	font-size: 0.6em;
 }
 
 #window {

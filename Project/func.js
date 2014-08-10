@@ -1,5 +1,4 @@
 level = 1;
-//window层事件注册
 
 
 function initial()
@@ -9,6 +8,7 @@ function initial()
 	hadButton = false;
 	BtnNum = 1 ;
 	nowNum = 1 ;
+	$("#num").text(nowNum);
 }
 
 function btnInit()
@@ -37,6 +37,7 @@ function btnInit()
 				height: buttonWidth,
 				lineHeight: buttonWidth +'px'
 			})
+
 			.each(function(index, el) 
 			{
 				$ranBtn = $(".buttons").eq(Math.floor(Math.random()*buttonAmount*buttonAmount))
@@ -52,14 +53,16 @@ function btnInit()
 				//hadButton = false;
 				if($targetBtn.text() == nowNum)
 				{
-					$targetBtn.fadeTo(50, 0.00, function() {
+					$targetBtn.fadeTo(0, 0.15, function() {
 						if(nowNum == buttonAmount*buttonAmount)
 							{
 								finish();
 							}
 						else
 							{
+								numChecker();
 								nowNum++;
+								$("#num").text(nowNum);
 							}
 
 					//此callback用于游戏完成时的检测
@@ -67,6 +70,32 @@ function btnInit()
 				}
 			});
 			//按钮生成完毕
+			switch(level)
+			{
+				case 1:
+					$(".buttons").css('fontSize', '3em');
+					break;
+
+				case 2:
+					$(".buttons").css('fontSize', '3em');
+					break;
+
+				case 3:
+					$(".buttons").css('fontSize', '2em');
+					break;
+
+				case 4:
+					$(".buttons").css('fontSize', '2em');
+					break;
+
+				case 5:
+					$(".buttons").css('fontSize', '1.6em');
+					break;
+
+				default :
+					$(".buttons").css('fontSize', '1em');
+					break;
+			}
 			hadButton = true;
 		}
 		else
@@ -95,6 +124,19 @@ function finish()
 		initial();
 	});
 
+}
+
+function numChecker()
+{
+	for(i = nowNum; i>0; i--)
+	{
+		$(".buttons").each(function(index, el) {
+			if($(this).text() == i)
+			{
+				$(this).fadeTo(50, 0.15);
+			}
+		});
+	}
 }
 
 

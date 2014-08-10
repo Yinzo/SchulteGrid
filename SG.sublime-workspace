@@ -4,12 +4,92 @@
 		"selected_items":
 		[
 			[
-				"back",
+				"butt",
+				"buttons"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"button",
+				"buttons"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"con",
+				"control"
+			],
+			[
+				"sli",
+				"slideUp	.slideUp()"
+			],
+			[
+				"bac",
 				"background-color"
 			],
 			[
-				"ta",
+				"bu",
+				"buttonAmount"
+			],
+			[
+				"now",
+				"nowNum"
+			],
+			[
+				"mouse",
+				"mouseover	mouseover"
+			],
+			[
+				"table",
 				"table-cell"
+			],
+			[
+				"te",
+				"text	.text"
+			],
+			[
+				"ran",
+				"ranBtn"
+			],
+			[
+				"each",
+				"each	.each()"
+			],
+			[
+				"tar",
+				"targetBtn"
+			],
+			[
+				"ta",
+				"targetBtn"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"butto",
+				"buttonAmount"
+			],
+			[
+				"fade",
+				"fadeOut	.fadeOut()"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			],
+			[
+				"read",
+				"ready	$(document).ready"
+			],
+			[
+				"back",
+				"background-color"
 			],
 			[
 				"tab",
@@ -32,10 +112,6 @@
 				"margin"
 			],
 			[
-				"bac",
-				"background"
-			],
-			[
 				"f",
 				"font-size"
 			],
@@ -46,10 +122,6 @@
 			[
 				"margin",
 				"margin"
-			],
-			[
-				"now",
-				"nowDegree"
 			],
 			[
 				"point",
@@ -92,10 +164,6 @@
 				"speedIndex"
 			],
 			[
-				"marg",
-				"margin-top"
-			],
-			[
 				"size",
 				"font-size"
 			],
@@ -123,6 +191,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Project/func.js",
+			"settings":
+			{
+				"buffer_size": 2755,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Project/index.html",
+			"settings":
+			{
+				"buffer_size": 832,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Project/style.css",
+			"settings":
+			{
+				"buffer_size": 1102,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
@@ -130,6 +222,18 @@
 		"height": 362.0,
 		"selected_items":
 		[
+			[
+				"set jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"set jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"jquery",
+				"Set Syntax: jQuery (JavaScript)"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -152,6 +256,9 @@
 	},
 	"file_history":
 	[
+		"/Users/yinz/Github/SchulteGrid/Project/test.js",
+		"/Users/yinz/Github/SchulteGrid/SG.sublime-project",
+		"/Users/yinz/Github/SchulteGrid/Project/jquery-1.11.1.min.js",
 		"/Users/yinz/Github/SchulteGrid/Project/index.html",
 		"/Users/yinz/Github/SchulteGrid/Project/style.css",
 		"/Users/yinz/Github/SchulteGrid/Project/func.js",
@@ -181,6 +288,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"css",
+			"span",
+			"val",
+			"text",
+			"div",
 			"30deg",
 			"onmousedown=\"start()\" onmouseup=\"reset()\"",
 			"0",
@@ -207,8 +319,90 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Project/func.js",
+					"settings":
+					{
+						"buffer_size": 2755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/jQuery/Syntaxes/jQueryJavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Project/index.html",
+					"settings":
+					{
+						"buffer_size": 832,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								527,
+								527
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Project/style.css",
+					"settings":
+					{
+						"buffer_size": 1102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								650,
+								650
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 657.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],

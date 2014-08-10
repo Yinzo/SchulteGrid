@@ -5,17 +5,22 @@
 	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
 	<script type="text/javascript" src="func.js"></script>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<meta name="viewport" content="width=device-width;initial-scale=0.5; minimum-scale=0.5; maximum-scale=0.5; user-scalable=0; target-densitydpi=high-dpi"/>
 </head>
 <body>
 	<!--<div class="buttons">test</div> 测试用按钮，发布时删除。-->
 <div id="main">
 	<div id="top">
 		<button id="control" type="button">Start</button>
+		<div id="next">
+			<p id="title">下一个数字</p>
+			<p id="num">0</p>
+		</div>
 	</div>
 	<div id="middle"></div>
 	<div id="bottom">
-		<div id="window">完成!<div id="continue">点击窗口进入下一关</div></div>
+		<div id="window">完成!<div id="continue">点击窗口进入下一关</div></div> <!--窗口记得改成白底圆角矩形加彩色按钮。整个应用的风格也是如此-->
+		<p>此应用不支持Internet Explorer浏览器，请使用Chrome或Firefox或Safari等浏览器</p>
 	</div>
 </div>
 </body>
