@@ -3,10 +3,22 @@
 	<title>Schulte Grid</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="jquery.mobile.min.js"></script>
+	<script type="text/javascript" src="zepto.min.js"></script>
 	<script type="text/javascript" src="timing.js"></script>
 	<script type="text/javascript" src="func.js"></script>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width ,initial-scale=0.5 , minimum-scale=0.5 , maximum-scale=0.5 , user-scalable=0 , target-densitydpi=high-dpi"/>
+	<Link href="http://uinz.biz/s/sg/favicon.ico" rel="icon">
+	<meta name="viewport" content="
+	width=500,
+	initial-scale=0.6,
+	minimum-scale=0.6,
+	maximum-scale=0.6,
+	user-scalable=no,
+	target-densitydpi=high-dpi"/>
+	<div id='wx_pic' style='margin:0 auto;display:none;'>
+		<img src='http://uinz.biz/s/sg/pic.png' />
+	</div>
 </head>
 <body>
 	<!--<div class="buttons">test</div> 测试用按钮，发布时删除。-->
@@ -14,19 +26,54 @@
 	<div id="top">
 		<button id="control" type="button">Start</button>
 		<div id="next">
-			<p id="title">下一个数字</p>
+			<p id="title">NEXT</p>
 			<p id="num">0</p>
 		</div>
+		<div id="talks">
+			<p id="level"></p>
+			<p id="words"></p>
+		</div>
+
 	</div>
-	<div id="middle"></div>
+	<div id="middle">
+		<div id="selection">
+			<div id="challange">休闲挑战模式</div>
+			<div id="toLevel">极限闯关模式</div>
+		</div>
+
+	</div>
 	<div id="bottom">
 		<div id="window">
 			<div id="fin">完成!</div>
-			<div id="text"></div>
-			<div id="continue">点击窗口进入下一关</div>
+			<div id="text1"></div>
+			<div id="text2"></div>
+			<div id="continue">点击窗口继续</div>
 		</div> <!--窗口记得改成白底圆角矩形加彩色按钮。整个应用的风格也是如此-->
-		<p>此应用不支持Internet Explorer浏览器，请使用Chrome或Firefox或Safari等浏览器</p>
+		<p>   Schulte Grid Ver 1.01 | Make By <a href="http://uinz.biz/">Yinz</a> </p>
 	</div>
 </div>
+<div id="success">
+	<div id="sText">
+		<p>成功通关！</p>
+		<p id ="sDetail"></p>
+	</div>
+	<div id="sShareBtn">分享成绩</div>
+	<div id="sReplayBtn">再玩一次</div>
+</div>
+
+<div id="selectLevel">
+	<div id="1level" class="levelSlt">Level 1</div>
+	<div id="2level" class="levelSlt">Level 2</div>
+	<div id="3level" class="levelSlt">Level 3</div>
+	<div id="4level" class="levelSlt">Level 4</div>
+	<div id="5level" class="levelSlt">Level 5</div>
+</div>
+<div id="refresh" onclick = "location.reload(true)">模式切换</div>
+<div style="display:none"><script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F071decde8f791c246e307db0c5f57bf3' type='text/javascript'%3E%3C/script%3E"));
+</script></div>
+
+
 </body>
 </html>

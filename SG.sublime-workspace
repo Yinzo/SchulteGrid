@@ -5,7 +5,47 @@
 		[
 			[
 				"butt",
-				"buttons"
+				"buttonAct"
+			],
+			[
+				"nex",
+				"nextLevel"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"sta",
+				"startTimer"
+			],
+			[
+				"la",
+				"lastTime"
+			],
+			[
+				"out",
+				"outPut"
+			],
+			[
+				"time",
+				"timePassed"
+			],
+			[
+				"st",
+				"startTime"
+			],
+			[
+				"now",
+				"nowTime"
 			],
 			[
 				"css",
@@ -14,10 +54,6 @@
 			[
 				"button",
 				"buttons"
-			],
-			[
-				"fon",
-				"font-size"
 			],
 			[
 				"con",
@@ -34,10 +70,6 @@
 			[
 				"bu",
 				"buttonAmount"
-			],
-			[
-				"now",
-				"nowNum"
 			],
 			[
 				"mouse",
@@ -195,7 +227,7 @@
 			"file": "Project/func.js",
 			"settings":
 			{
-				"buffer_size": 2755,
+				"buffer_size": 3582,
 				"line_ending": "Unix"
 			}
 		},
@@ -203,7 +235,7 @@
 			"file": "Project/index.html",
 			"settings":
 			{
-				"buffer_size": 832,
+				"buffer_size": 1155,
 				"line_ending": "Unix"
 			}
 		},
@@ -211,7 +243,15 @@
 			"file": "Project/style.css",
 			"settings":
 			{
-				"buffer_size": 1102,
+				"buffer_size": 1955,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Project/timing.js",
+			"settings":
+			{
+				"buffer_size": 203,
 				"line_ending": "Unix"
 			}
 		}
@@ -219,7 +259,7 @@
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
 	{
-		"height": 362.0,
+		"height": 392.0,
 		"selected_items":
 		[
 			[
@@ -239,7 +279,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 435.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -256,11 +296,12 @@
 	},
 	"file_history":
 	[
+		"/Volumes/Macintosh HD/Users/yinz/Github/SchulteGrid/Project/index.html",
 		"/Users/yinz/Github/SchulteGrid/Project/test.js",
+		"/Users/yinz/Github/SchulteGrid/Project/style.css",
 		"/Users/yinz/Github/SchulteGrid/SG.sublime-project",
 		"/Users/yinz/Github/SchulteGrid/Project/jquery-1.11.1.min.js",
 		"/Users/yinz/Github/SchulteGrid/Project/index.html",
-		"/Users/yinz/Github/SchulteGrid/Project/style.css",
 		"/Users/yinz/Github/SchulteGrid/Project/func.js",
 		"/Users/yinz/Github/Spin/spiner.html",
 		"/Users/yinz/Github/Spin/style.css",
@@ -288,6 +329,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1",
+			"0.5",
+			" ",
+			"1",
+			"1.0",
+			"initial",
+			"；",
+			"startTimer",
+			";",
 			"css",
 			"span",
 			"val",
@@ -319,7 +369,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -327,15 +377,15 @@
 					"file": "Project/func.js",
 					"settings":
 					{
-						"buffer_size": 2755,
+						"buffer_size": 3582,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								289,
-								289
+								2283,
+								2283
 							]
 						],
 						"settings":
@@ -344,7 +394,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1897.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -354,15 +404,15 @@
 					"file": "Project/index.html",
 					"settings":
 					{
-						"buffer_size": 832,
+						"buffer_size": 1155,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								527,
-								527
+								552,
+								552
 							]
 						],
 						"settings":
@@ -371,7 +421,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -381,15 +431,15 @@
 					"file": "Project/style.css",
 					"settings":
 					{
-						"buffer_size": 1102,
+						"buffer_size": 1955,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								650,
-								650
+								20,
+								20
 							]
 						],
 						"settings":
@@ -398,7 +448,33 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 657.0,
+						"translation.y": 668.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Project/timing.js",
+					"settings":
+					{
+						"buffer_size": 203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								126,
+								126
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/jQuery/Syntaxes/jQueryJavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
